@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-  <video autoplay muted loop id="fruitJam" style="position:fixed;right:0;bottom:0;min-width:100%;min-height:100%;">
+  <video autoplay loop id="fruitJam" style="position:fixed;right:0;bottom:0;min-width:100%;min-height:100%;">
     <source src="fruit_jam.mp4" type="video/mp4">
   </video>
   <head>
@@ -11,6 +11,8 @@
     <p>coming soon...</p>
   </body>
   <script>
-    document.getElementById("fruitJam").muted = !document.getElementById("fruitJam").muted
+    document.addEventListener('click', () => {
+        document.querySelector('video').play();
+    });
   </script>
 </html>
