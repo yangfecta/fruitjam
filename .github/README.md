@@ -1,3 +1,3 @@
-# Yangfecta
+# old fruitjam site
 
-http://yangfecta.com
+[http://yangfecta.com](https://yangfecta.github.io/fruitjam/)
